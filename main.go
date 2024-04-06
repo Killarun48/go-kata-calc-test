@@ -22,8 +22,6 @@ func calcInt(firstNumber int, secondNumber int, operator string) int {
 		result = firstNumber * secondNumber
 	case "/":
 		result = firstNumber / secondNumber
-	case ":":
-		result = firstNumber / secondNumber
 	}
 	return result
 }
