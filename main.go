@@ -63,7 +63,7 @@ func intToRoman(num int) string {
 		1:   "I",
 	}
 
-	keys := make([]int, 0)
+	keys := make([]int, 0, len(intRomanMap))
 	for k := range intRomanMap {
 		keys = append(keys, k)
 	}
